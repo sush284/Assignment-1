@@ -1,6 +1,6 @@
 import express from "express";
 import { MongoClient } from "mongodb";
-const uri ={};
+const uri ={""};
  const client = new MongoClient(uri, {});
 
 var app = express();
