@@ -1,8 +1,7 @@
 import express from "express";
 import { MongoClient } from "mongodb";
-const uri =
-  "mongodb+srv://sush284:sush284@cluster0.el0s6ri.mongodb.net/?retryWrites=true&w=majority";
-const client = new MongoClient(uri, {});
+const uri ={};
+ const client = new MongoClient(uri, {});
 
 var app = express();
 const PORT = 9191;
